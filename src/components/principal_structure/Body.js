@@ -12,7 +12,7 @@ import VerEstudiantes from '../active_components/VerEstudiantes';
 import VerGrupos from '../active_components/VerGrupos';
 
 
-import firebaseApp from '../../Firebase/firebase';
+import firebaseApp from '../../firebase/firebase';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { useUserContext } from '../context/userContext';
 const auth = getAuth(firebaseApp);

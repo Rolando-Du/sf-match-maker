@@ -1,6 +1,6 @@
 import '../../assets/stylesheets/active_components/CargarEstudiante.css'
 
-import { db } from '../../Firebase/firebase'
+import { db } from '../../firebase/firebase'
 import { collection, getDocs, deleteDoc, doc, addDoc } from 'firebase/firestore';
 
 import { useState, useEffect } from 'react';

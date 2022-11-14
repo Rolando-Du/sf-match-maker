@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import firebaseApp from "../../../Firebase/firebase";
+import firebaseApp from "../../../firebase/firebase";
 import { getFirestore, doc } from "firebase/firestore";
 import {
   getAuth,

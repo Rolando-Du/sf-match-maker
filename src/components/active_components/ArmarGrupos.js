@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import DetalleGrupo from "./DetalleGrupo";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { db } from '../../Firebase/firebase'
+import { db } from '../../firebase/firebase'
 import { collection, getDocs, doc, addDoc } from 'firebase/firestore';
 
 const ArmarGrupos = () =>{

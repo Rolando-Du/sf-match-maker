@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import equipo from '../../assets/image/equipo.png'
 import '../../assets/stylesheets/active_components/NavBar.css';
 
-import firebaseApp from '../../Firebase/firebase';
+import firebaseApp from '../../firebase/firebase';
 import { getAuth, signOut } from "firebase/auth";
 import { useUserContext } from '../context/userContext';
 import Login from './login_components/Login';
