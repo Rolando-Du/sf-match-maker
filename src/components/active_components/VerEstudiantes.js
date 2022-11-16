@@ -93,7 +93,7 @@ const VerEstudiantes = () => {
                                 </div>
 
                                 <div className='skills'>
-                                    <p>{estudiante.skills.length != 0 ?
+                                    <p>{estudiante.skills.length !== 0 ?
                                         <div>
                                             {estudiante.skills.map((skill,index) => {
                                                 return (

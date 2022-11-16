@@ -6,8 +6,7 @@ import ArmarGrupos from '../active_components/ArmarGrupos';
 import CargarEstudiante from '../active_components/CargarEstudiante';
 import CargarHabilidades from '../active_components/CargarHabilidades';
 import Home from '../active_components/Home';
-import Login from '../active_components/login_components/Login';
-import Register from '../active_components/login_components/Register';
+
 import VerEstudiantes from '../active_components/VerEstudiantes';
 import VerGrupos from '../active_components/VerGrupos';
 

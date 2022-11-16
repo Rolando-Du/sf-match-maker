@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/image/logo_match.png'
@@ -13,7 +13,7 @@ import { useUserContext } from '../context/userContext';
 import Login from './login_components/Login';
 import Register from './login_components/Register';
 import { useState } from 'react';
-import { IconName } from "react-icons/bi";
+// import { IconName } from "react-icons/bi";
 function NavBar() {
 
     const auth = getAuth(firebaseApp);
@@ -22,7 +22,7 @@ function NavBar() {
     const [logReg, setLogReg] = useState(true);
 
     return (
-        <>
+        < div>
             {['xl'].map((expand) => (
                 <Navbar key={false} bg="light" expand={false} className="mb-3">
                     <Container fluid>
@@ -30,7 +30,7 @@ function NavBar() {
                             <Navbar.Brand href="#">
                                 <div className='logo-container'>
                                     <p className='text-logo'>Match</p>
-                                    <img className='logo-img' src={logo} />
+                                    <img className='logo-img' src={logo} alt=""/>
                                 </div>
                             </Navbar.Brand>
                         </Link>
@@ -111,7 +111,7 @@ function NavBar() {
                     </Container>
                 </Navbar>
             ))}
-        </>
+        </div>
     );
 }
 

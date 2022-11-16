@@ -10,6 +10,7 @@ import {
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
+
 const MySwal = withReactContent(Swal);
 
 
@@ -70,8 +71,7 @@ const Register = () => {
         registerUser(name, email, password);
 
     };
-    {/* Podría hacerse con un formulario controlado con
-    handleChange para mejorar eficiencia creo, despues se agrega */}
+    /* Podría hacerse con un formulario controlado con handleChange para mejorar eficiencia creo, despues se agrega */
     return (
         <div className='register-cont'>
 
@@ -106,7 +106,7 @@ const Register = () => {
                         <option value="user">Alumno</option>
                     </select>
                 </label> */}
-                <button className="subm-btn" type="submit">Register</button>
+                <button className="subm-btn" >Register</button>
             </form>
         </div>
     )
